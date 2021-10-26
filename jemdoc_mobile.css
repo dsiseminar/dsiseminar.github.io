@@ -189,6 +189,10 @@ pre {
 	margin: 0;
 }
 
+.aligncenter {
+    text-align: center;
+}
+
 div#footer {
 	font-size: small;
 	border-top: 1px solid #c0c0c0;

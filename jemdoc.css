@@ -108,6 +108,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.aligncenter {
+    text-align: center;
+}
+
 div.menu-category {
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
