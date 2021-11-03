@@ -385,8 +385,26 @@ td {
 	padding: 2px;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	text-align: center;
+	text-align: left;
 	/* border: 1px solid gray;*/
+}
+
+td.sepcell {
+	padding-left: 0px;
+}
+
+td.leftcell {
+	padding-right: 10px;
+	padding-top: 10px;
+	width: 75%;
+}
+
+td.rightcell {
+	padding-left: 5px;
+	vertical-align: top;
+	padding-right: 10px;
+	width: 25%;
+	padding-bottom: 1em;
 }
 
 table + table {
