@@ -404,6 +404,7 @@ td {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	text-align: center;
+	vertical-align: top;
 	/* border: 1px solid gray;*/
 }
 
@@ -474,7 +475,7 @@ table.imgtablec, table.imgtablec td {
 }
 
 .active, .collapsible:hover {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -487,10 +488,10 @@ table.imgtablec, table.imgtablec td {
 }
 
 /* Style the collapsible content. Note: hidden by default */
-.contento {
-	padding-top: 0.5em;
-  padding: 0 2em;
-  display: block;
+.contentb {
+  padding-top: 0.5em;
+  padding: 0 0em;
+  display: none;
   overflow: hidden;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
