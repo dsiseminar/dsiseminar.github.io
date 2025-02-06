@@ -52,25 +52,25 @@ try {
 <a name="next"></a>
 <h2>Next Talk</h2>
 <table class="imgtable"><tr><td>
-<img src="./images/yanning.jpg" alt="" width="225px" />&nbsp;</td>
+<img src="https://avatar.unibas.ch/image/72B4ECCF-27AB-406D-8E2A-41A600FAD216/m" alt="" width="225px" />&nbsp;</td>
 <td align="left"><ul>
-<li><p><b>Speaker</b>: <a href="https://sites.google.com/uci.edu/yanning-shen/home" target=&ldquo;blank&rdquo;>Yanning Shen (UC Irvine)</a></p>
+<li><p><b>Speaker</b>: <a href="https://dmi.unibas.ch/de/personen/ivan-dokmanic/" target=&ldquo;blank&rdquo;>Ivan Dokmanić (University of Basel)</a></p>
 </li>
 </ul>
 <ul>
-<li><p><b>Title</b>: Demystifying and Mitigating Unfairness for Learning over Graphs</p>
+<li><p><b>Title</b>: Understanding and improving graph neural nets with the cSBM</p>
 </li>
 </ul>
 <ul>
-<li><p><b>Date/Time</b>: <font color="red"><b>4:00pm</b></font>, Jan. 22nd, 2025 in Paris Time (<a href="https://time.is/1600_22_January_2025_in_Paris/California/New_York/Hong_Kong" target=&ldquo;blank&rdquo;>@your local time</a>, <a href="https://calendar.google.com/calendar/render?cid=http%3A%2F%2Fresearchseminars.org%2Fseminar%2FDEGASSeminar%2Fics" target="“blank”"><img src="./images/ical.png" alt="" width="20"> Add to your calendar</a>)</p>
+<li><p><b>Date/Time</b>: <font color="red"><b>3:00pm</b></font>, Feb. 19th, 2025 in Paris Time (<a href="https://time.is/1500_19_February_2025_in_Paris/California/New_York/Hong_Kong" target=&ldquo;blank&rdquo;>@your local time</a>, <a href="https://calendar.google.com/calendar/render?cid=http%3A%2F%2Fresearchseminars.org%2Fseminar%2FDEGASSeminar%2Fics" target="“blank”"><img src="./images/ical.png" alt="" width="20"> Add to your calendar</a>)</p>
 </li>
 </ul>
 <ul>
-<li><p><b>Abstract</b>: We live in an era of big data and &lsquo;&lsquo;small world’’, where a large amount of data resides on inter-connected graphs representing a wide range of physical and social interdependencies, e.g., smart grids and social networks. Hence, machine learning (ML) over graphs has attracted significant attention and has shown promising success in various applications. Despite this success, the large-scale deployment of graph-based ML algorithms in real-world systems relies heavily on how socially responsible they are. While graph-based ML models nicely integrate the nodal data with the connectivity, they also inherit potential unfairness. Using such ML models may therefore result in inevitable unfair results in various decision- and policy-making in the related applications. To this end, this talk will introduce novel fairness-aware graph neural network (GNN) designs to address unfairness issues in learning over graphs. Furthermore, theoretical understandings are provided to explain the potential source of unfairness in GNNs and prove the efficacy of the proposed schemes. Experimental results on real networks are presented to demonstrate that the proposed framework can enhance fairness while providing comparable accuracy to state-of-the-art alternative approaches for node classification and link prediction tasks.</p>
+<li><p><b>Abstract</b>: I will present two recent results on using the contextual stochastic block model (cSBM) to study graph neural networks (GNNs). I'll begin by showing how the cSBM in combination with tools from statistical physics and random matrix theory enables a precise generalization analysis for node classification with simple graph convolution networks. This analysis explains how graph noise, feature noise, and the number of training labels jointly shape the risk, and it matches behaviors seen in “production-scale” GNNs on data beyond the cSBM. I'll then use these insights to motivate a new graph rewiring method—JDR—that works by improving spectral alignment between the graph and the features. Although JDR is a heuristic, we prove that it improves alignment in a stylized setting, and demonstrate its effectiveness on both synthetic and real-world data. Empirically, JDR outperforms existing rewiring techniques for node classification with GNNs as downstream models.</p>
 </li>
 </ul>
 <ul>
-<li><p><b>Speaker Bio</b>: Yanning Shen is an assistant professor with the EECS department at the University of California, Irvine. Her research interests span the areas of machine learning, network science, and data science. She received her Ph.D. degree from the University of Minnesota in 2019. She was selected as a Rising Star in EECS by Stanford University in 2017. She received the Microsoft Academic Grant Award for AI Research in 2021, the Google Research Scholar Award in the area of Machine Learning and Data Mining in 2022, the Hellman Fellowship in 2022, and the UCI Newkirk faculty fellowship in 2023. She is also an honoree of the MIT Technology Review 35 Innovators under 35 Asia Pacific in 2022. More detailed information can be found at <a href="https://sites.google.com/uci.edu/yanning-shen/home" target=&ldquo;blank&rdquo;>her website</a>.</p>
+<li><p><b>Speaker Bio</b>: Ivan Dokmanić is an Associate Professor in the Department of Mathematics and Computer Science at the University of Basel, Switzerland. From 2016 to 2019 he was an Assistant Professor in the Coordinated Science Laboratory at the University of Illinois at Urbana-Champaign, where he now holds an adjunct appointment. He received a diploma in electrical engineering from the University of Zagreb and a PhD in computer science from EPFL. His research interests lie between inverse problems, machine learning, and signal processing. He received the Best Student Paper Award at ICASSP 2011, a Google PhD Fellowship, an EPFL Outstanding Doctoral Thesis Award and a Google Faculty Research Award. In 2019 the European Research Council (ERC) awarded him a Starting Grant.</p>
 </li>
 </ul>
 <p><ul></ul><ul><a href="https://tudelft.zoom.us/meeting/register/tJwlcuqoqjkoH90a6B-p7bSDgrSpnAuYNxZ3" target="“blank”"><p><img src="./images/register.png" alt="Register Now" width="175"></p></a></ul> </p>
@@ -710,6 +710,21 @@ A GNN is a function that takes graphs (with node features) and returns vectors i
 </ul>
 </td></tr></tbody></table>
 </div>
+<button type="button" class="collapsible"><b>[+] Speaker: Yanning Shen (UC Irvine)</b> (Jan 22, 2025, 4:00pm Paris time)</button>
+<div class="content">
+<table class="imgtable"><tbody><tr><td>
+<img src="./images/yanning.jpg" alt="" width="150px">&nbsp;</td>
+<td align="left"><ul>
+<li><p><b>Title</b>: Demystifying and Mitigating Unfairness for Learning over Graphs</p>
+</li>
+<li><p><b>Abstract</b>: We live in an era of big data and ``small world’’, where a large amount of data resides on inter-connected graphs representing a wide range of physical and social interdependencies, e.g., smart grids and social networks. Hence, machine learning (ML) over graphs has attracted significant attention and has shown promising success in various applications. Despite this success, the large-scale deployment of graph-based ML algorithms in real-world systems relies heavily on how socially responsible they are. While graph-based ML models nicely integrate the nodal data with the connectivity, they also inherit potential unfairness. Using such ML models may therefore result in inevitable unfair results in various decision- and policy-making in the related applications. To this end, this talk will introduce novel fairness-aware graph neural network (GNN) designs to address unfairness issues in learning over graphs. Furthermore, theoretical understandings are provided to explain the potential source of unfairness in GNNs and prove the efficacy of the proposed schemes. Experimental results on real networks are presented to demonstrate that the proposed framework can enhance fairness while providing comparable accuracy to state-of-the-art alternative approaches for node classification and link prediction tasks.</p>
+</li>
+<li><p><b>Speaker Bio</b>: Yanning Shen is an assistant professor with the EECS department at the University of California, Irvine. Her research interests span the areas of machine learning, network science, and data science. She received her Ph.D. degree from the University of Minnesota in 2019. She was selected as a Rising Star in EECS by Stanford University in 2017. She received the Microsoft Academic Grant Award for AI Research in 2021, the Google Research Scholar Award in the area of Machine Learning and Data Mining in 2022, the Hellman Fellowship in 2022, and the UCI Newkirk faculty fellowship in 2023. She is also an honoree of the MIT Technology Review 35 Innovators under 35 Asia Pacific in 2022. More detailed information can be found at her website.</p>
+</li>
+<li><p><a href="https://sites.google.com/uci.edu/yanning-shen/home" target="“blank”"><b>Speaker Homepage</b></a>, <a href="https://www.youtube.com/watch?v=J1b0lYtCTsE" target="“blank”"><b>Youtube</b></a>, <a href="./pdf/yanning_FairGL.pdf" target="“blank”"><b>Slides</b></a></p>
+</ul>
+</td></tr></tbody></table>
+</div>
 <h2>Organization</h2>
 <p>The DEGAS Webinar Series is organized by <a href="https://cas.tudelft.nl/People/bio.php?id=3" target=&ldquo;blank&rdquo;>Geert Leus</a>, <a href="https://people.epfl.ch/dorina.thanou?lang=en" target=&ldquo;blank&rdquo;>Dorina Thanou</a>, <a href="http://www1.se.cuhk.edu.hk/~htwai/" target=&ldquo;blank&rdquo;>Hoi-To Wai</a> as a part of the <a href="https://signalprocessingsociety.org/community-involvement/data-science-initiative" target=&ldquo;blank&rdquo;>IEEE SPS Data Science Initiative</a>. <a href="https://twitter.com/DegasSeminar?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @DegasSeminar</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 <table class="imgtable"><tr><td>
@@ -733,7 +748,7 @@ for (i = 0; i < coll.length; i++) {
 </script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2025-01-09 10:55:57 HKT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2025-02-06 20:23:19 HKT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
